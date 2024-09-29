@@ -2,7 +2,7 @@ import React from "react";
 import TextWriter from "./TextWriter";
 import PortfolioImage from "./PortfolioImage";
 
-const Layout1 = () => {
+const Home = () => {
   return (
     <div className=" flex  flex-col  justify-center items-center lg:flex-row   flex-wrap  bg-[#527385]  ">
       {/* Left Side */}
@@ -19,4 +19,4 @@ const Layout1 = () => {
   );
 };
 
-export default Layout1;
+export default Home;

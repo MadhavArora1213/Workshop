@@ -4,7 +4,7 @@ import "react";
 import { Card1 } from "./Card1";
 import { Card2 } from "./Card2";
 
-export const Layout2 = () => {
+export const Skills = () => {
   return (
     <div className="flex flex-col gap-5  mt-5 p-5">
       {/* TOP  Start*/}

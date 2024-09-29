@@ -1,7 +1,7 @@
 import React from "react";
 import Card3 from "./Card3";
 
-const Layout3 = () => {
+const Projects = () => {
   return (
     <div className=" gap-5  mt-5 p-5">
       <div className="basis-full rounded-xl border border-dashed p-5  bg-gradient-to-r from-slate-300 via-white to-pink-100   flex flex-wrap  gap-9 justify-center items-center  ">
@@ -28,4 +28,4 @@ const Layout3 = () => {
   );
 };
 
-export default Layout3;
+export default Projects;

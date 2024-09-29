@@ -1,8 +1,8 @@
 import "./App.css";
-import Layout1 from "./components/Layout1";
-import { Layout2 } from "./components/Layout2";
+import Home from "./components/Home";
+import { Skills } from "./components/SkillsSection";
 import { Navbar1 } from "./components/Navbar1";
-import Layout3 from "./components/Layout3";
+import Projects from "./components/Projects";
 import Heading from "./components/Heading";
 import ServicesLayout from "./components/ServicesLayout";
 import { ContactForm } from "./components/ContactForm";
@@ -12,11 +12,11 @@ function App() {
   return (
     <div className="bg-[#527385]">
       <Navbar1 />
-      <Layout1 />
+      <Home />
       <Heading title="My Skills" />
-      <Layout2 />
+      <Skills />
       <Heading title="My Projects" />
-      <Layout3 />
+      <Projects />
       <Heading title="Services I provide" />
       <ServicesLayout />
       <Heading title="About" />
