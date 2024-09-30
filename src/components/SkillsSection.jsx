@@ -5,7 +5,7 @@ import { Card1 } from "./Card1";
 import { Card2 } from "./Card2";
 import Html from "../images/Html.png"
 import CSS from "../images/CSS.png"
-import JS from "../images/Javascript.png"
+import JS from "../images/JavaScript.png"
 import Node from "../images/Nodejs.png"
 import React from "../images/React.png"
 import Python from "../images/Python.png"
