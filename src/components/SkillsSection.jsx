@@ -19,7 +19,7 @@ export const Skills = () => {
         <Card2
           title="HTML"
           description="Projects Done using HTML and foundational web technologies."
-          image={Html}
+          import ={Html}
         />
         <Card2
           title="CSS"
