@@ -1,4 +1,4 @@
-import "./App.css";
+
 import Home from "./components/Home";
 import { Skills } from "./components/SkillsSection";
 import { Navbar1 } from "./components/Navbar1";

@@ -1,6 +1,6 @@
 import React from "react";
-
-const PortfolioImage = ({ image = "/src/images/portfolio.webp" }) => {
+import image from '../images/portfolio.webp';
+const PortfolioImage = ({ }) => {
   return (
     <div className="rounded-full flex justify-center items-center max-w-full">
       <img
