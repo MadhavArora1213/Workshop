@@ -7,11 +7,11 @@ import {
   CardHeader,
   CardTitle,
 } from "keep-react";
-
+import images from "../images/Html.png"
 export const Card2 = ({
   description = "Description",
   title = "Title",
-  image = "src/images/Html.png",
+  image = {images},
   ...props
 }) => {
   return (

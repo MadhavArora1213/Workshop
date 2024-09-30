@@ -14,11 +14,9 @@ import {
   NavbarList,
   AvatarImage,
 } from "keep-react";
-
-export const Navbar1 = ({
-  profile = "/src/images/Profile.jpeg",
-  logo = "/src/images/Html.png",
-}) => {
+import profile from "../images/Profile.jpeg";
+import logo from "../images/Html.png";
+export const Navbar1 = () => {
   return (
     <Navbar className="px-5 bg-gradient-to-t from-black to-gray-600">
       <NavbarContainer>

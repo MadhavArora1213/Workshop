@@ -1,6 +1,6 @@
 import React from "react";
 import Card3 from "./Card3";
-
+import Gym from "../images/Gym.png"
 const Projects = () => {
   return (
     <div className=" gap-5  mt-5 p-5">
@@ -8,19 +8,19 @@ const Projects = () => {
         <Card3
           title="Gym Fitness Website"
           description="Website for Ftiness"
-          image="/src/images/Gym.png"
+          image={Gym}
           projectLink="https://arunkumar069.github.io/GymfitnessWebsite/"
         />
         <Card3
           title="Gym Fitness Website"
           description="Website for Ftiness"
-          image="/src/images/Gym.png"
+          image={Gym}
           projectLink="https://arunkumar069.github.io/GymfitnessWebsite/"
         />
         <Card3
           title="Gym Fitness Website"
           description="Website for Ftiness"
-          image="/src/images/Gym.png"
+          image={Gym}
           projectLink="https://arunkumar069.github.io/GymfitnessWebsite/"
         />
       </div>

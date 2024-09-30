@@ -3,8 +3,14 @@ import { RxVercelLogo } from "react-icons/rx";
 import "react";
 import { Card1 } from "./Card1";
 import { Card2 } from "./Card2";
-
-
+import Html from "../images/Html.png"
+import CSS from "../images/CSS.png"
+import JS from "../images/Javascript.png"
+import Node from "../images/Nodejs.png"
+import React from "../images/React.png"
+import Python from "../images/Python.png"
+import SQL from "../images/SQL.png"
+import Cpp from "../images/C++.png"
 export const Skills = () => {
   return (
     <div className="flex flex-col gap-5  mt-5 p-5">
@@ -13,41 +19,42 @@ export const Skills = () => {
         <Card2
           title="HTML"
           description="Projects Done using HTML and foundational web technologies."
+          image={Html}
         />
         <Card2
           title="CSS"
           description="Projects showcasing advanced layouts and responsive designs using CSS."
-          image="src/images/CSS.png"
+          image={CSS}
         />
         <Card2
           title="JavaScript"
           description="Interactive and dynamic web projects built using vanilla JavaScript."
-          image="src/images/JavaScript.png"
+          image={JS}
         />
         <Card2
           title="Node.js"
           description="Server-side applications built using Node.js and JavaScript."
-          image="src/images/Nodejs.png"
+          image={Node}
         />
         <Card2
           title="React.js"
           description="Front-end applications created with React, focusing on UI components and state management."
-          image="src/images/React.png"
+          image={React}
         />
         <Card2
           title="Python"
           description="Scripts and web applications built with Python, including automation and data processing."
-          image="src/images/Python.png"
+          image={Python}
         />
         <Card2
           title="SQL"
           description="Database management and query operations using SQL for efficient data storage."
-          image="src/images/SQL.png"
+          image={SQL}
         />
         <Card2
           title="C++"
           description="High-performance applications and system-level programming done with C++."
-          image="src/images/C++.png"
+          image={Cpp}
         />
       </div>
       {/* Bottom end */}
